@@ -1,0 +1,50 @@
+body::before {
+    content: ""; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-image: url('img/proyectsIMG/font2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: -1; 
+}
+
+.contenedor > div {
+    background-color: #15202b; 
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A506B;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #64FFDA;
+    border-color: #64FFDA;
+    color: #0A192F;
+}
+
+.btn-primary:hover {
+    background-color: #3A506B;
+    border-color: #3A506B;
+}
