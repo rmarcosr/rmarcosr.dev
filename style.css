@@ -39,12 +39,12 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #64FFDA;
-    border-color: #64FFDA;
-    color: #0A192F;
+    background-color:#0a66c2;
+    border-color: #0008a8;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #3A506B;
-    border-color: #3A506B;
+    background-color: #0655a4;
+    border-color: #0655a4;
 }
